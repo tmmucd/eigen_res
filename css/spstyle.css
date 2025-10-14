@@ -1,9 +1,11 @@
-@charset "utf-8";
-/* CSS Document */
 img, object, embed, video {max-width:100%;height:auto;}
 
+@media only screen and (max-width:750px){
 
 
 
 
 
+
+
+}
