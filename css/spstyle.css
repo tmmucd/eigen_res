@@ -6,8 +6,9 @@ img, object, embed, video {max-width:100%;height:auto;}
 
 
 .wrapper_top{
-    background-image: none;
-    background-color: rgb(185, 255, 220);
+    background-image:url(../img/bg.png) ;
+    background-size: 20px auto;
+    background-repeat: repeat;
     margin: 0 auto;
 }
 
