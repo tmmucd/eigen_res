@@ -66,7 +66,7 @@ img, object, embed, video {max-width:100%;height:auto;}
   .rikai{
     width:110%;
     font-family: "MS Gothic","MS ゴシック";
-    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: bold;
 }
 }
 
@@ -97,6 +97,25 @@ img, object, embed, video {max-width:100%;height:auto;}
         margin: 0;
     }
 }
+
+.kakugen{
+    margin:37% auto 0 auto;
+    width:200px;
+    height:400px;
+    padding:1%;
+    /* border: 1px solid #000; */
+    background-image: url(../img/kakugen.jpg);
+    background-size:cover;
+}
+.tate{
+writing-mode: vertical-rl;
+-ms-writing-mode: tb-rl;
+    font-family: "MS Gothic","MS ゴシック";
+    font-size: 20px;
+    margin: 10px 0 0 80px;
+}
+
+
 
 
 
