@@ -313,3 +313,14 @@ writing-mode: vertical-rl;
     width:50%;
     margin: 0 auto;
 }
+.totop{
+    text-align: center;
+    a:link,a:visited{
+        color: #520066;
+    }
+}
+.footerprof{
+    text-align: center;
+    font-size: 12px;
+    padding: 0 0 10px 0;    
+}

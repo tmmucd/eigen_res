@@ -128,7 +128,36 @@ writing-mode: vertical-rl;
 
 
 
+.profbox{
+    padding: 5% 0 0 0;
+    margin: 0 auto 2% auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        font-size: 20px;
+    }
+}
+.profpic{
+    border: 8px double #4c4c4c;
+    width: 80%;
+    img{
+        width: 100%;
+    }
+}
+.proftext{
+    border: 8px double #4c4c4c;
+    width: 80%;
+}
 
+.his_box{
+    background-image: url(../img/bg.png);
+    background-size: 30%;
+    border: 1px solid #000;
+    width:80%;
+    margin: 0 auto;
+}
 
 
 
