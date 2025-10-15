@@ -175,3 +175,38 @@ a:link,a:hover,a:visited,a:active{}
     font-family: "MS Gothic","MS ゴシック";
     }
 }
+
+.kochobox{
+    border: 1px solid #000;
+    display: flex;
+    margin: -370px auto 0 auto;
+    width: fit-content;
+    .kocho{
+        width: fit-content;
+        margin: 0 15% 0 -15%;
+    }
+    .kochop{
+        font-size: 36px;
+        font-weight: bold;
+        color: #ff0000;
+        margin: -120% 0 0 10%;
+    }
+    .watashi{
+        color: #ffff00;
+        margin: 2% 0 0 11%;
+    }
+    .meiyop{
+        font-size: 36px;
+        font-weight: bold;
+        color: #ff0000;
+        margin: -90% 0 0 10%;
+
+    }
+    .nekop{
+        color: #ffff00;
+        margin: 0 0 0 2%;
+    }
+
+}
+
+

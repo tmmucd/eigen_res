@@ -89,7 +89,22 @@ img, object, embed, video {max-width:100%;height:auto;}
     background-color: #ffb0cb;
     p{
     font-family: "MS Gothic","MS ゴシック";
+    }}
+
+.kochobox{
+    border: 5px solid #6e1212;
+    margin:0 auto;
+    .kocho{
+        margin: 0;
     }
+}
+
+
+
+
+
+
+
 
 
 
