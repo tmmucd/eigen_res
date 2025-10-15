@@ -1,6 +1,95 @@
 img, object, embed, video {max-width:100%;height:auto;}
 
+
+
 @media only screen and (max-width:750px){
+
+
+.wrapper_top{
+    background-image: none;
+    background-color: rgb(185, 255, 220);
+    margin: 0 auto;
+}
+
+.h1_top{
+    font-size: 24px;
+}
+
+.ultop{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+    a{font-size: 20px;
+    margin: 0 auto;}
+    li{
+        margin: 0 0 5% 0;
+    }
+
+
+}
+.nazo{
+    width:20px;
+    height:20px;
+    background-color: #d8d8d8;
+    border: 5px solid #006f0f;
+    margin:0;
+}
+.moomin{
+    margin: 0 auto;
+    img{
+        width: 60%;
+    }
+}
+.phako{
+        width:fit-content;
+        margin:-10% 0 0 auto ;
+        font-family: "MS Gothic","MS ゴシック";
+        font-size: 12px;
+        color:#ff0000;
+        /* border: 1px solid #000; */
+          animation: gatagata .3s infinite;
+        scale: 1;
+        pointer-events: none;
+}
+
+.rikaioya{
+    width:50vw;
+    height: 50vw;
+    margin: 7% 0 0 3%;
+    border:  solid #000;
+    border-radius: 5px;
+    font-size: 36px;
+    padding:0 0 0 20px;
+    /* Animation property */
+  animation: wiggle 2s linear infinite;
+  .rikai{
+    width:110%;
+    font-family: "MS Gothic","MS ゴシック";
+    font-family: "Mochiy Pop One", sans-serif;
+}
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);}
+  15% {    transform: rotateZ(-15deg);}
+  20% {    transform: rotateZ(10deg);}
+  25% {transform: rotateZ(-10deg);}
+  30% {transform: rotateZ(6deg);}
+  35% {    transform: rotateZ(-4deg);}
+  40%, 100% {    transform: rotateZ(0);}
+}
+
+.solt{
+    width:40%;
+    border: 8px double #6d6d6d;
+    margin:-5% 0 0 auto;
+    background-color: #ffb0cb;
+    p{
+    font-family: "MS Gothic","MS ゴシック";
+    }
 
 
 
