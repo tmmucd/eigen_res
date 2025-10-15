@@ -177,13 +177,15 @@ a:link,a:hover,a:visited,a:active{}
 }
 
 .kochobox{
-    border: 1px solid #000;
     display: flex;
     margin: -370px auto 0 auto;
     width: fit-content;
     .kocho{
         width: fit-content;
         margin: 0 15% 0 -15%;
+    }
+    .kochopic{
+        background-image: url(../img/fire.jpg);
     }
     .kochop{
         font-size: 36px;
