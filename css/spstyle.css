@@ -158,6 +158,181 @@ writing-mode: vertical-rl;
     width:80%;
     margin: 0 auto;
 }
+/* ：：：：：：：：：：ここから年間行事：：：：：：：： */
+
+.wrapper_event{
+    width: 100%;
+}
+
+.event_header{
+    display: none;
+}
+.logobox{
+    width: 200px;
+    margin: 0 auto;
+    img{
+        margin: 17px 0 0 0;
+    }
+}
+
+.logosp{
+    display: block;
+    width: 50%;
+    margin: 2% auto 0 2%;
+}
+.event_nav_box ul{
+    border: 1px solid #bc0000;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 17px 0 0 0;
+    margin: 0 auto;
+    font-family: "Noto Serif JP";
+    a{
+    padding-bottom: 3px; /* テキストと下線の間隔 */
+    width: fit-content;
+    height: fit-content;
+    margin: -42px 0px 0 0 ;
+    background-image: linear-gradient(#000, #000);
+    background-repeat: no-repeat;
+    background-position: bottom right; /* 下線の初期位置 */
+    background-size: 0 1px; /* 下線のサイズ（横幅、高さ） */
+    transition: background-size 0.3s;}
+    a:hover{
+        color: #565656;
+        background-position: bottom left; /* 下線のホバー時位置 */
+        background-size: 100% 1px; /* 下線の横幅を100%にする */
+    }
+}
+
+.linebox{
+    display: none;
+}
+
+
+
+
+.spheader{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: -10% 2% 0 auto;
+    width: fit-content;
+    font-family: "Noto Serif JP";
+        /* 追従 */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    z-index: 100000;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+}
+
+/* メニュー非表示用 */
+.menu-toggle {
+  display: none;
+}
+/* ハンバーガーの見た目 */
+.hamburger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 30px;
+  height: 25px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: relative;
+}
+/* ハンバーガーの線 */
+.hamburger span {
+  width: 30px;
+  height: 3px;
+  background: #013169;
+  transition: 0.3s;
+  position: absolute;
+}
+/* 1本目（上の線） */
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+/* 2本目（中央の線） */
+.hamburger span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* 3本目（下の線） */
+.hamburger span:nth-child(3) {
+  bottom: 0;
+}
+/* チェック時のアニメーション */
+.menu-toggle:checked + .hamburger span:nth-child(1) {
+  transform: translateY(11px) rotate(45deg);
+}
+.menu-toggle:checked + .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle:checked + .hamburger span:nth-child(3) {
+  transform: translateY(-11px) rotate(-45deg);
+}
+/* メニューの表示 */
+.menu {
+  display: none;
+}
+.menu-toggle:checked ~ .menu {
+  display: block;
+}
+/*ハンバーガーここまで  */
+
+.eventmidashi{
+    font-family: "Noto Serif JP";
+    font-size: 32px;
+    text-align: center;
+    margin: 5% auto;
+
+}
+
+.eventbox{
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding:0 0 0 0;
+    margin: 0 auto 20% auto;
+}
+
+.event01{
+    width:fit-content;
+    border-right: 1px solid #aeaeae;
+    p{
+        text-align: center;
+        font-size: 18px;
+        color: #ffffff;
+        margin: -61px -60px 0 0;
+    }
+    .maru{
+    font-size: 70px;
+    margin: -40px -60px 0 0px;
+    color: #003169;
+}
+}
+
+.event02{
+    width:fit-content;
+    margin: 0 auto;
+    padding:0 0 0 40px;
+    line-height: 200%;
+}
+
+.event03{
+    width:fit-content;
+}
+.pagetop{
+    display: none;
+}
+
+
 
 
 
