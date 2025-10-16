@@ -506,7 +506,7 @@ html {
     }
 
 }
-.event_nav_box ul{
+.info_nav_box ul{
     display: flex;
     padding: 17px 0 0 0;
     font-family: "Noto Serif JP";
@@ -515,15 +515,10 @@ html {
     width: fit-content;
     height: fit-content;
     margin: -42px 0px 0 0 ;
-    background-image: linear-gradient(#000, #000);
-    background-repeat: no-repeat;
-    background-position: bottom right; /* 下線の初期位置 */
-    background-size: 0 1px; /* 下線のサイズ（横幅、高さ） */
-    transition: background-size 0.3s;}
+}
     a:hover{
-        color: #565656;
-        background-position: bottom left; /* 下線のホバー時位置 */
-        background-size: 100% 1px; /* 下線の横幅を100%にする */
+        color: #a39300;
+
     }
 }
 
@@ -615,6 +610,34 @@ p{width:700px;
 }
 
 
+.pagetop_info {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    background: #fff;
+    border: solid 2px #ff677e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pagetop__arrow_info {
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #ff677e;
+    border-right: 3px solid #ff677e;
+    transform: translateY(20%) rotate(-45deg);
+}
+@media (hover: hover) and (pointer: fine) {
+    .pagetop_info:hover, .pagetop_info:hover .pagetop__arrow_info {
+        background: #ff677e;
+        border-color: #ffffff;
+    }
+}
 
 
 
