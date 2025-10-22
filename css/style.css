@@ -658,6 +658,14 @@ p{width:700px;
 
 /* ::::::::::::::::::ここから卒業生の声 voice:::::::::: */
 
+
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .wrapper_voice{
     width: 100%;
     background-color: #f4f4f4;
@@ -670,6 +678,7 @@ p{width:700px;
     display: flex;
     justify-content: flex-end;
     border-bottom: 40px solid #ffe13a;
+    margin: 0 0 30px 0;
 }
 .nav_voice{
     width: fit-content;
@@ -695,10 +704,159 @@ p{width:700px;
         background-size: 100% 1px; /* 下線の横幅を100%にする */
     }
 
-
-
-
     ul{
         display: flex;
     }
+}
+
+.contents_voice{
+    /* border: 1px solid #000; */
+}
+
+.h1_voice{
+    font-family: outfit;
+    font-size: 48px;
+    font-weight: 600;
+    color: #3b3b3b;
+    text-align: center;
+}
+.h2_voice{
+    color: #3b3b3b;
+    text-align: center;
+    margin: -10px 0 0 0;
+}
+
+
+.voicebox{
+    display: flex;
+}
+
+.voicetext{
+    width:100%;
+    height:300px;
+    background-color: #ffe13a;
+    margin: 0 0 0 -55px;
+    padding: 20px 0 ;
+    transform:skew(-20deg,0);
+    display: flex;
+    justify-content: center;
+    border: 3px solid #ea0000;
+    
+    /* padding: 25px 0 0 0; */
+
+        .center_box{
+            border: 1px solid #000;
+            width: 100%;
+            margin: 0 0 0 70px;
+            padding: 0 15px 0 30px;
+        }
+        .voicetitle{
+                transform:skewX(20deg);
+                font-size: 48px;
+                font-weight: 800;
+                color: #ffffff;
+                margin: 0 0px 0 70px;
+
+        }
+        .name{
+            transform:skewX(20deg);
+            margin: 20px 0 0 125px;
+            color: #3b3b3b;
+            font-weight: 500;
+
+        }
+        .honbun{
+            transform:skewX(20deg);
+            width:;
+            margin: 20px 0 0 150px;
+            color: #3b3b3b;
+            /* border: 1px solid #000; */
+
+        }
+}
+/* アニメーションスタイル */
+/* アニメーション前 */
+.u-fade-type-up{
+    transform: translateX(-80px);
+    opacity: 0;
+}
+
+/* トリガー発火でis-activeを付与 */
+.u-fade-type-up.is-active{
+    transition: 1s;
+    transform: translateX(0);
+    opacity: 1;
+    width: ;
+    margin: 0 -50% 0 0;
+    border: 1px solid #2aedff;
+    /* border: 3px solid #0aba25; */
+
+}
+
+
+
+.voicepic{
+    /* background-image: url(../img/voice01.jpg); */
+    /* background-size: 200%; */
+    /* background-color: #000; */
+    border: 1px solid #000;
+    width: ;
+    height: 300px;
+    /* margin: 0 0 0 40px; */
+    overflow: hidden;
+    transform:skewX(-20deg);
+        img{transform:skewX(20deg) scale(1.2);
+            width:fit-content;
+        }
+}
+.u-fade-type-up-right{
+    transform: translateX(80px);
+    opacity: 0;
+    overflow: hidden;
+    
+}
+.u-fade-type-up-right.is-active{
+    transition: 1s;
+    transform: translateX(0);
+    opacity: 1;
+    overflow:visible ;
+    border: 3px solid #12ac67;
+    width: 50%;
+    padding: 0 0 0 20px;
+    margin: 0 0 0 60%;
+    img{
+        max-width: 800px;
+        /* object-fit: scale-down; */
+
+    }
+}
+
+
+.voicepic02{
+    width:810px;
+    height:300px;
+    background-color: #ffe13a;
+    margin: 0 0 0 -100px;
+    transform:skew(-20deg,0);
+    padding: 0 0 0 0;
+    overflow: hidden;
+            img{transform:skewX(20deg) ;
+               /* object-fit: cover;} */
+            object-position: 0%  20%;}
+}
+/* アニメーションスタイル */
+/* ---------------------------- */
+
+/* アニメーション前 */
+.u-fade-type-up{
+    transform: translateX(-80px);
+    opacity: 0;
+}
+
+/* トリガー発火でis-activeを付与 */
+.u-fade-type-up.is-active{
+    transition: 1s;
+    transform: translateX(0);
+    opacity: 1;
+    /* border: 3px solid #0aba25; */
 }

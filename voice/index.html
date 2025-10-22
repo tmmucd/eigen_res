@@ -9,18 +9,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!--jQuery本体-->
-<script src="js/jquery-1.11.2.min.js"></script>
-
+<script src="../js/jquery-1.11.2.min.js"></script>
+<script src="../js/test.js"></script>
 <!--ready関数-->
 <script>
-$(function(){
-
+$(function () {
+    $(".voicetext").on("inview", function () {
+        $(this).addClass("inview");
+    });
 });
 </script>
-
 </head>
 
 
@@ -36,11 +42,50 @@ $(function(){
         <li><a href="">卒業式の声</a></li>
         <li><a href="">ギャラリー</a></li>
     </ul></nav>
-
-
 </header>
 
+<div class="contents_voice">
 
+<h1 class="h1_voice">Voices from Graduates</h1>
+<h2 class="h2_voice">顕現体験談</h2>
+
+<div class="voicebox">
+
+    <div class="single-item u-fade-type-up js-scroll-trigger">
+    <div class="voicetext">
+        <div class="center_box">
+        <p class="voicetitle">揺らぎを聞く日々</p>
+        <p class="name">第7期生　南條 真理</p>
+        <p class="honbun">入塾前は自分に自信がありませんでしたが、義塾で「声」を整えて<br>
+            から、毎朝の光の揺らぎがはっきり見えるようになりました。<br>
+            今は大学で心理学を学びつつ、顕現の研究を続けています。</p>
+        </div>
+    </div>
+    </div><!-- single-item u-fade-type-up js-scroll-trigger -->
+
+    <div class="single-item u-fade-type-up-right js-scroll-trigger">
+    <div class="voicepic"><img src="../img/voice01.png" alt="" width="800"></div>
+    </div><!-- single-item u-fade-type-up-right js-scroll-trigger -->
+
+</div><!-- voicebox -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</div>
 
 
 
