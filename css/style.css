@@ -654,3 +654,51 @@ p{width:700px;
         text-align: center;
     }
 }
+
+
+/* ::::::::::::::::::ここから卒業生の声 voice:::::::::: */
+
+.wrapper_voice{
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.header_voice{
+    width:100%;
+    height: fit-content;
+    padding: 20px 20px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 40px solid #ffe13a;
+}
+.nav_voice{
+    width: fit-content;
+    height: fit-content;
+    padding:5px 2px 9px 6px;
+    background-color: #3b3b3b;
+    border-radius: 24px;
+    a{
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 3px; /* テキストと下線の間隔 */
+    width: fit-content;
+    height: fit-content;
+    margin: -42px 0px 0 0 ;
+    background-image: linear-gradient(#ffe13a, #ffe13a);
+    background-repeat: no-repeat;
+    background-position: bottom right; /* 下線の初期位置 */
+    background-size: 0 1px; /* 下線のサイズ（横幅、高さ） */
+    transition: background-size 0.3s;}
+    a:hover{
+        color: #ffe13a;;
+        background-position: bottom left; /* 下線のホバー時位置 */
+        background-size: 100% 1px; /* 下線の横幅を100%にする */
+    }
+
+
+
+
+    ul{
+        display: flex;
+    }
+}
